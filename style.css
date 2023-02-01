@@ -12,7 +12,7 @@ body {
 }
 
 .background {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(./img/dev.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -42,12 +42,12 @@ header {
 
 .header-link a:hover {
     color: #2ecc71;
-    transition: 0.6s all;
+    transition: 0.3s all;
 }
 
 .logo i {
     height: 40px;
-    width: 40px; 
+    width: 40px;
     background: transparent;
     border: 1px solid #2ecc71;
     color: #2ecc71;
@@ -74,4 +74,40 @@ button:hover {
     background-color: #2ecc71;
     color: #fff;
     transition: 0.5s;
+}
+
+.container-text {
+    padding: 150px 0 0 130px;
+}
+
+.text h3 {
+    color: white;
+    font-size: 10px;
+}
+
+.text h1 {
+    color: white;
+    font-size: 15px;
+}
+
+.text span {
+    color: #2ecc71;
+}
+
+.text p {
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.social-medias i {
+    color: #2ecc71;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:600px) {
+    .header-link {
+        display: none;
+    }
 }
